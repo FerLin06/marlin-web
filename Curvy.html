@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Curvy</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+        .productos {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .producto {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .producto button {
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #ff69b4;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .producto button:hover {
+            background-color: #e055a1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MARLIN - Curvy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="descripcion">
+            <h2>Bienvenido al apartado de Curvy</h2>
+            <p>Aquí podras encontrar tus vestidos favoritos en tallas especiales </p>
+            
+            <!-- Contenedor de productos -->
+            <div class="productos">
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <img src="C:\Users\obeso\OneDrive\Escritorio\Fernanda Garcia Linares\Curvy 1.PNG" alt="Curvy 1" /><h1>$140</h1>
+                    <button>Comprar</button>
+                </div>
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <img src="C:\Users\obeso\OneDrive\Escritorio\Fernanda Garcia Linares\Curvy 2.PNG" alt="Curvy 2" /><h2>$280</h2>
+                    <button>Comprar</button>
+                </div>
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <img src="C:\Users\obeso\OneDrive\Escritorio\Fernanda Garcia Linares\Curvy 3.PNG" alt="Curvy 3" /><h3>$300</h3>
+                    <button>Comprar</button>
+                </div>
+                <!-- Agrega más productos igual -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 MARLIN. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
